@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("tesla.csv", parse_dates=["Date"], index_col="Date");
+df = pd.read_csv("./data/tesla.csv", parse_dates=["Date"], index_col="Date");
 # print(type(df.Date[0])) #checking the type of the date 
 # print(df.index) # after indexing the column Date
 # print(df.head(10)); #to print the 10 datas from top

@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-df= pd.read_csv('../data/nifty_50.csv')
+df= pd.read_csv('./data/nifty_50.csv')
 # print(df.head(10));
 
 range = pd.date_range(start="01/03/2022",end="01/31/2022",freq="B") #periods are also used to generate days
